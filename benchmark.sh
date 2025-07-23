@@ -506,7 +506,7 @@ check_container_mounts() {
     if [[ -n "$critical_mounts" ]]; then
         print_result "FAIL" "$name: Critical host directories mounted" "$critical_mounts"
     elif [[ -n "$sensitive_mounts" ]]; then
-        print_result "WARN" "$name: Sensitive directories mounted under /home/ or /etc/openpanel/"
+        print_result "WARN" "$name: Bind mounts under /home/ or /etc/openpanel/"
     else
         print_result "PASS" "$name: No sensitive host directories mounted"
     fi
