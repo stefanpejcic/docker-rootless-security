@@ -1,8 +1,8 @@
 #!/bin/bash
 ################################################################################
-# Script Name: domains/add.sh
+# Script Name: user/check.sh
 # Description: Performs comprehensive security checks on user files, Docker daemon and containers.
-# Usage: opencli user-chcek <USERNAME>
+# Usage: opencli user-check <USERNAME>
 # Author: Stefan Pejcic
 # Created: 26.07.2025
 # Last Modified: 26.07.2025
